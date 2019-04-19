@@ -1,0 +1,23 @@
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+@font-face {
+  font-family: 'blacklisted';
+  src: url('../fonts/Blacklisted.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+	background-image: linear-gradient(to right, #152033, #243b55);
+	height: 1000px;
+	padding: 25px;
+}
+
+h1 {
+	color: white;
+	font-family: 'blacklisted' , sans-serif;
+}

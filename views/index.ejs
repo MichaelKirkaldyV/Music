@@ -2,14 +2,32 @@
 <html>
 <head>
 	<title>Welcome</title>
+	<link rel="stylesheet" type="text/css" href="/css/index.css">
 </head>
 <body>
 	<div class="container">
-		<h1>Welcome to my very first music app!</h1>
+		<h1>Musiek Radio</h1>
 		<a href="http://localhost:8888">
 			<button>Login to Spotify</button>
 		</a>
 	</div>
+	<script type="text/javascript">
 
+		var full_token = window.location.hash;
+		var a_token = full_token.split('&')[0];
+		var r_token = full_token.split('&')[1];
+
+		function getHash(hash){
+			hash.split()[0];
+			hash = hash.substring(14, hash.length);
+			console.log(hash);
+			return hash
+		}
+
+		getHash(a_token);
+		getHash(r_token);
+
+		 //console.log(r_token)
+	</script>
 </body>
 </html>
