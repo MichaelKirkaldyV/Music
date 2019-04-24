@@ -4,6 +4,7 @@ var path = require("path");
 var request = require("request");
 var cors = require("cors");
 var cookieParser = require("cookie-parser");
+var spotifyApi = require("spotify-web-api-node");
 
 
 var app = express();

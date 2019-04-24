@@ -21,3 +21,15 @@ h1 {
 	color: white;
 	font-family: 'blacklisted' , sans-serif;
 }
+
+.login-button {
+	background-color: #fbc636;
+	border: none;
+	height: 50px;
+	width: 180px;
+	margin: 30px;
+	padding: 15px;
+	color: white;
+	border-radius: 10px;
+	font-size: 15px;
+}
